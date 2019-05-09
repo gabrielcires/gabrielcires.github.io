@@ -18,7 +18,7 @@ window.onload = function () {
     $(window).scroll(function () {
         var scrollDistance = $(window).scrollTop();
 
-        // Assign active class to nav links while scolling
+        // Assign active class to nav links while scrolling
         $('.section-display').each(function (i) {
             if ($(this).position().top <= scrollDistance) {
                 $('.menu-list li a.active').removeClass('active');
