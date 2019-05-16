@@ -12,7 +12,7 @@
     <meta http-equiv="author" content="Gabriel Cires">
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?">
 </head>
 
 <body class="content-grid ">
@@ -30,29 +30,34 @@
 
         </nav>
     </header>
+
+    <nav class="plus-cont" onclick="showFooter(this)">
+        <div class="plus">+</div>
+    </nav>
+
     <main class="main-container">
-        <section id="1" class="section-display no-pad">
+        <section id="1" class="section-display no-pad pre-anim">
             <div class="design-title">
                 <h1 class="big-title">DISEÑO</h1>
-                <h2 class="small-title">GRÁFICO y FRONT-END</h2>
+                <h2 class="small-title">GRÁFICO Y FRONT-END</h2>
             </div>
             <div class="dec-bar"></div>
         </section>
         <section id="2" class="section-display">
-            <div class="img-container">
+            <div class="img-container pre-anim">
                 <div class="border-skew"></div>
                 <div class="img-cover">
                     <img class="img-form" src="img/gabriel.jpg" alt="">
                 </div>
             </div>
-            <div class="text-cont">
+            <div class="text-cont pre-anim">
                 <h2 class="secs-title">Me llamo <span class="colored">Gabriel</span></h2>
-                <p class="read-text">Soy diseñador gráfico y desarrollador Front-End, pero ante todo soy un mediador. El diseño gráfico tiene un peso muy importante en nuestro día a día, lo vemos en todos lados e influencia directamente en las decisiones que tomamos... Esto significa que el viejo dicho "no juzgues un libro por su portada" no se aplica en el ambito de los negocios. En este caso, la portada debe de ser un reflejo del interior del "libro" y debe de expresar con un golpe de vista que es lo que te puedes esperar de el.</p>
-                <p class="read-text"> Si una buena empresa tiene una mala imagen, no importa lo bueno que sea su servicio, a ojos externos no será un servicio atractivo. Aquí es donde entro yo. Mi función es la de comunicar de forma visual cual es el ideal de tu empresa, su filosofía, sus características principales; transmitir una personalidad única, sincera y llamativa, de forma que lo que se ve externamente se base en lo interno, haciendo uso del diseño como una herramienta para crear una comunicación efectiva entre la empresa y el cliente.</p>
+                <p class="read-text">Soy diseñador gráfico y desarrollador Front-End, pero ante todo soy un mediador. El diseño gráfico tiene un peso muy importante en nuestro día a día, lo vemos en todos lados e influencia directamente en las decisiones que tomamos... Esto significa que el viejo dicho "no juzgues un libro por su portada" no se aplica en el ambito de los negocios. En este caso, la portada debe de ser un reflejo del interior del "libro" y expresar con un golpe de vista que es lo que se puede esperar de el.</p>
+                <p class="read-text"> Si una buena empresa tiene una mala imagen, no importa lo bueno que sea su servicio, a ojos externos no será un servicio atractivo. Aquí es donde entro yo. Mi función es la de comunicar de forma visual cual es el ideal de tu empresa, su filosofía, sus características principales; transmitir una personalidad única, sincera y llamativa, haciendo uso del diseño como una herramienta para crear la necesaria comunicación efectiva entre empresa y cliente.</p>
             </div>
         </section>
         <section id="3" class="section-display">
-            <div class="proyect-sep no-pad">
+            <div class="proyect-sep no-pad pre-anim">
                 <div class="img-container">
                     <div class="border-skew"></div>
                     <div class="img-cover">
@@ -65,7 +70,7 @@
                         <a class="proyect-link" href="https://www.showland.es/" target="_blank">Visitar página</a>
                 </div>
             </div>
-            <div class="proyect-sep">
+            <div class="proyect-sep pre-anim">
                 <div class="img-container">
                     <div class="border-skew"></div>
                     <div class="img-cover">
@@ -78,7 +83,7 @@
                         <a class="proyect-link" href="http://susanacano.es/" target="_blank">Visitar página</a>
                 </div>
             </div>
-            <div class="proyect-sep">
+            <div class="proyect-sep pre-anim">
                 <div class="img-container">
                     <div class="border-skew"></div>
                     <div class="img-cover">
@@ -93,18 +98,19 @@
             </div>
         </section>
         <section id="4" class="section-display no-pad-bot">
-            <div class="text-cont">
+            <div class="text-cont pre-anim">
                 <h2 class="secs-title">Contacta <span class="colored">Conmigo</span></h2>
                 <p>Mándame un correo a gabriel.cires@gmail.com</p>
             </div>
         </section>
-        <footer class="footer-display">
-            <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/gabriel-cires-l%C3%B3pez-1706a5181/"><img class="icon-img" src="img/linkedin.svg" alt=""></a>
-        </footer>
     </main>
+            <footer id="footer" class="footer-display smooth-tr">
+                <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/gabriel-cires-l%C3%B3pez-1706a5181/"><img class="icon-img" src="img/linkedin.svg" alt=""></a>
+            </footer>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<script src="js/portfolio.js" type="text/javascript"></script>
+    <script src="js/appear.min.1.0.3.js" type="text/javascript"></script>
+    <script src="js/portfolio.js" type="text/javascript"></script>
 
 </html>
