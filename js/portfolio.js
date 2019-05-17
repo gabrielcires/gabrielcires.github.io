@@ -48,5 +48,5 @@ appear({
     appear: function appear(el){
         el.classList.add("do-anim");
       },
-    bounds: -200,
+    bounds: -180,
   });
