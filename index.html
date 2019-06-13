@@ -7,117 +7,132 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Gabriel Cires / Diseño Gráfico y Front-end</title>
     <link rel="shortcut icon" href="img/favicon.ico?" />
-    <meta name="theme-color" content="rgb(30, 30, 30)" />
+    <meta name="theme-color" content="rgb(16, 16, 16)" />
     <meta name="description" content="Diseño gráfico y web a medida.">
     <meta http-equiv="author" content="Gabriel Cires">
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?">
 </head>
 
-<body class="content-grid ">
+<body class="content-grid">
     <header class="menu-container">
         <nav class="menu-left">
+            <div class="menu-bars top-bars mobile-nodisp">
+                <div class="bars"></div>
+            </div>
             <ul id="navBtns" class="menu-list">
                 <li>
-                    <div class="load-icon"></div>
+                    <div class="load-icon"><img src="img/gabriel_web.svg" alt=""></div>
                 </li>
-                <li class=""><a href="#1">¿Qué hago?</a></li>
-                <li class=""><a href="#2">Sobre mí</a></li>
-                <li class=""><a href="#3">Proyectos</a></li>
-                <li class=""><a href="#4">Contacto</a></li>
+                <li class="smooth-tr"><a href="#1">¿Qué hago?</a></li>
+                <li class="smooth-tr"><a href="#2">Proyectos</a></li>
+                <li class="smooth-tr"><a href="#3">Sobre mí</a></li>
+                <li class="smooth-tr"><a href="#4">Contacto</a></li>
             </ul>
-
+            <div class="menu-bars bot-bars mobile-nodisp">
+                    <div class="bars"></div>
+                </div>
         </nav>
     </header>
+
+    <nav class="plus-cont" onclick="showFooter(this)">
+        <div class="plus smooth-tr">
+            <div class="plus-minus vert-bar smooth-tr"></div>
+            <div class="plus-minus smooth-tr"></div>
+        </div>
+    </nav>
+
     <main class="main-container">
-        <section id="1" class="section-display no-pad">
+        <section id="1" class="section-display no-pad no-margin-top pre-anim">
             <div class="design-title">
                 <h1 class="big-title">DISEÑO</h1>
-                <h2 class="small-title">GRÁFICO y FRONT-END</h2>
+                <h2 class="small-title">GRÁFICO Y FRONT-END</h2>
             </div>
             <div class="dec-bar"></div>
         </section>
         <section id="2" class="section-display">
-            <div class="img-container">
-                <div class="border-skew"></div>
-                <div class="img-cover">
-                    <img class="img-form" src="img/gabriel.jpg" alt="">
-                </div>
-            </div>
-            <div class="text-cont">
-                <h2 class="secs-title">Me llamo <span class="colored">Gabriel</span></h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti similique ullam doloribus culpa
-                    provident sequi, iusto, a minima aut quasi ducimus eius nihil vel nobis laborum laudantium.
-                    Voluptatibus, libero quas! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis,
-                    accusantium sed! Minus quas ut obcaecati expedita sequi praesentium, quia, placeat nesciunt quae,
-                    commodi magnam beatae corrupti soluta. Odit, fuga itaque? Lorem ipsum dolor, sit amet consectetur
-                    adipisicing elit. Quia architecto, accusamus commodi, alias odit quaerat quod vero consectetur
-                    tenetur asperiores perspiciatis magni ipsa voluptatibus velit libero labore impedit! Quae,
-                    voluptate? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, vel sequi! Id, autem.
-                    Placeat dolorem provident beatae facere ipsa aperiam assumenda earum modi quasi necessitatibus atque
-                    voluptate, rem ex repudiandae!</p>
-            </div>
-        </section>
-        <section id="3" class="section-display">
-            <div class="proyect-sep no-pad">
+                <h2 class="back-title pre-anim in-left">PROYECTOS</h2>
+            <div class="proyect-sep pre-anim in-left">
                 <div class="img-container">
                     <div class="border-skew"></div>
                     <div class="img-cover">
-                        <img class="img-form" src="img/showland.jpg" alt="">
+                        <img class="img-form " src="img/showland.jpg" alt="">
                     </div>
                 </div>
-                <div class="text-cont">
+                <div class="text-cont neg-margin-top">
                     <h2 class="secs-title">Showland <span class="colored">WEB</span></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti similique ullam doloribus culpa
-                        provident sequi, iusto, a minima aut quasi ducimus eius nihil vel nobis laborum laudantium.
-                        Voluptatibus, libero quas! Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                        <a class="proyect-link" href="https://www.showland.es/" target="_blank">Visitar página</a>
+                    <p class="read-text">Realizada para una empresa dedicada a publicidad y eventos, con un aspecto moderno y juvenil. En este caso, el proyecto se realizó en conjunto con el diseñador de la empresa.</p>
+                        <a class="proyect-link smooth-tr" href="https://www.showland.es/" target="_blank">Visitar página</a>
                 </div>
             </div>
-            <div class="proyect-sep">
+            <div class="proyect-sep pre-anim in-left">
                 <div class="img-container">
                     <div class="border-skew"></div>
                     <div class="img-cover">
-                        <img class="img-form" src="img/susanacano.jpg" alt="">
+                        <img class="img-form " src="img/susanacano.jpg" alt="">
                     </div>
                 </div>
-                <div class="text-cont">
+                <div class="text-cont neg-margin-top">
                     <h2 class="secs-title">Susana Cano <span class="colored">WEB</span></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti similique ullam doloribus culpa
-                        provident sequi, iusto, a minima aut quasi ducimus eius nihil vel nobis laborum laudantium.
-                        Voluptatibus, libero quas! Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                        <a class="proyect-link" href="http://susanacano.es/" target="_blank">Visitar página</a>
+                    <p class="read-text">Realizada en colaboración con Showland, está página es simple pero funcional y atractiva. Perfecta para un pequeño comercio pero de calidad.</p>
+                        <a class="proyect-link smooth-tr" href="http://susanacano.es/" target="_blank">Visitar página</a>
                 </div>
             </div>
-            <div class="proyect-sep">
+            <div class="proyect-sep pre-anim in-left no-pad-btm">
                 <div class="img-container">
                     <div class="border-skew"></div>
                     <div class="img-cover">
-                        <img class="img-form" src="img/quantum.jpg" alt="">
+                        <img class="img-form " src="img/quantum.jpg" alt="">
                     </div>
                 </div>
-                <div class="text-cont">
+                <div class="text-cont neg-margin-top">
                     <h2 class="secs-title">Quantum Studio <span class="colored">WEB</span></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti similique ullam doloribus culpa
-                        provident sequi, iusto, a minima aut quasi ducimus eius nihil vel nobis laborum laudantium.
-                        Voluptatibus, libero quas! Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                    <a class="proyect-link" href="http://www.quantumstudio.es" target="_blank">Visitar página</a>
+                    <p class="read-text">Una de mis primeras páginas. Lo cierto es que es mejorable, pero tiene bastantes detalles creativos y en si es una buena página. La muestro como referencia de mejoría.</p>
+                    <a class="proyect-link smooth-tr" href="http://www.quantumstudio.es" target="_blank">Visitar página</a>
                 </div>
             </div>
         </section>
-        <section id="4" class="section-display">
-            <div class="text-cont">
+        <section id="3" class="section-display in-left pre-anim">
+                <h2 class="back-title">SOBRE MI</h2>
+                <div class="img-container">
+                    <div class="border-skew"></div>
+                    <div class="img-cover">
+                        <img class="img-form" src="img/gabriel.jpg" alt="">
+                    </div>
+                </div>
+                <div class="text-cont neg-margin-top">
+                    <h2 class="secs-title">Me llamo <span class="colored">Gabriel</span></h2>
+                    <p class="read-text">Me dedico al diseño gráfico desde 2015 y al desarrollo web desde 2017, cuando empecé a trabajar para una empresa de desarrollo de aplicaciones llamada Quantum Studio hasta 2018. Desde entonces trabajo como freelance. Realicé un grado medio de diseño en la Escuela de Arte de Talavera de la Reina y he aprendido a crear webs de forma autodidacta mayormente.</p>
+                    <p class="read-text"> Pienso que la importancia del diseño es vital hoy en día para que cualquier negocio se comunique de forma efectiva con su cliente, reflejando claramente la personalidad y filosofía de la empresa y creando una relación beneficiosa para ambas partes. Por eso cuando diseño, intento ponerme en el lugar de quién va a interactuar con el producto y experimentar el servicio.</p>
+                    <p class="read-text"> Poseo conocimientos de diseño, fotografía y manejo de los programas de Adobe: Illustrator, Photoshop, Indesign, Adobe Xd. Estoy familiarizado con el concepto de Responsive design, buenas prácticas de la web y conozco los lenguajes de marcado y programación HTML5, CSS3 y JavaScript. También hago uso de las plataformas de control de versiones Git y tengo algo de experiencia con frameworks como Angular, Bootstrap y preprocesadores como Sass.</p>
+                </div>
+            </section>
+        <section id="4" class="section-display no-margin-bot no-pad">
+                <h2 class="back-title pre-anim in-left">CONTACTO</h2>
+            <div class="text-cont pre-anim in-left">
                 <h2 class="secs-title">Contacta <span class="colored">Conmigo</span></h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti similique ullam doloribus culpa
-                    provident sequi, iusto, a minima aut quasi ducimus eius nihil vel nobis laborum laudantium.
-                    Voluptatibus, libero quas! Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                <p class="read-text">Mandándome un correo a gabcires@gmail.com</p>
             </div>
         </section>
     </main>
+    <footer id="footer" class="footer-display smooth-tr">
+                <div>
+                    <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/gabriel-cires-l%C3%B3pez-1706a5181/">
+                        <!-- <img class="icon-img" src="img/linkedin.svg" alt=""> -->
+                        <button class="link-btn smooth-tr">LINKEDIN</button>
+                    </a>
+                    <a class="icon-link" target="_blank" href="#">
+                        <!-- <img class="icon-img" src="img/linkedin.svg" alt=""> -->
+                        <button class="link-btn btn-off smooth-tr">INSTAGRAM</button>
+                    </a>
+                </div>
+            </footer>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<script src="js/portfolio.js" type="text/javascript"></script>
+    <script src="js/appear.min.1.0.3.js" type="text/javascript"></script>
+    <script src="js/pace.min.1.0.0.js" type="text/javascript"></script>
+    <script src="js/portfolio.js" type="text/javascript"></script>
 
 </html>
