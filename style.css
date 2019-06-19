@@ -143,6 +143,10 @@ table {
 /* -------------------------------------------------------------------------------------------- */
 
 /*- General */
+::selection{
+    background: #e90b40;
+    color: white;
+}
 body {
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
@@ -532,6 +536,21 @@ body {
 }
 
 /*- animations */
+.black-cover {
+    background: rgb(16, 16, 16);
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 50;
+    pointer-events: none;
+    opacity: 1;
+}
+
+.black-cover.do-anim {
+    opacity: 0;
+    transition: all .3s ease;
+}
+
 .smooth-tr {
     transition: all .2s cubic-bezier(.31, .47, .34, 1.07);
 }
