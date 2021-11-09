@@ -1904,7 +1904,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "p", 14);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "Marca creada para un grupo de m\xFAsica que se basa en el uso de ritmos y melod\xEDas progresivas para crear una atm\xF3sfera emvolvente y expansiva, buscando crear un equilibrio entre la dureza y lo suave. Se caracterizan por crear temas donde la progresi\xF3n musical va escalando hasta alcanzar un climax sonoro. El imagotipo est\xE1 basado en la forma triangular por el sentido de equilibrio y estabilidad que esta aporta, adem\xE1s del sentido de ascendencia. El espaciado del texto, la falta de serifas y la customizaci\xF3n de las letras va en conjunto con el sentido de ambiente, refinamiento y la personalidad del grupo.");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "Marca creada para un grupo de m\xFAsica que se basa en el uso de ritmos y melod\xEDas progresivas para crear una atm\xF3sfera envolvente y expansiva, buscando crear un equilibrio entre la dureza y lo suave. Se caracterizan por crear temas donde la progresi\xF3n musical va escalando hasta alcanzar un climax sonoro. El imagotipo est\xE1 basado en la forma triangular por el sentido de equilibrio y estabilidad que esta aporta, adem\xE1s del sentido de ascendencia. El espaciado del texto, la falta de serifas y la customizaci\xF3n de las letras va en conjunto con el sentido de ambiente, refinamiento y la personalidad del grupo.");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
